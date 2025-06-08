@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fdfcc9;
+  color: #000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fdfcc9;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: 0.95em;
+  margin: 0;
+  padding: 0;
+}
+nav a:hover {
+  background-color: #4a2b4b;
+  color: #000000;
+}
+.intro {
+  padding: 40px;
+}
+
+.intro h1 {
+  font-size: 1.7em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  margin-bottom: 20px;
+  font-size: 0.95em;
+  color: #333;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.search-box button {
+  background-color: #8a6d8d;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container {
+  background-color: #f9f7d9;
+  padding: 30px;
+  text-align: center;
+}
+
+.search-bar {
+  margin: 20px auto;
+  width: 60%;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  background-color: #d9d9d9;
+}
+
+.category-title {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.category {
+  width: 250px;
+  background-color: #e6e79d;
+  border: 2px solid #8a6d8d;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.category img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.category span {
+  font-weight: bold;
+}
+
+.circulo {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 0 20px auto;
+  object-fit: cover;
+}
+
+.filosofos {
+  background-color: #8a6d8d;
+  color: white;
+  padding: 30px 40px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+/* Cards */
+.card {
+  width: 250px;
+  background-color: #92f592;
+  border: 2px solid #31743f;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.card .logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  background: #f0f0f0;
+}
+
+/* Textos dos cards */
+.card h2 {
+  font-size: 20px;
+  color: #2c3e50;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.info {
+  font-size: 14px;
+  color: #888;
+}
+
+.icons a:hover {
+  color: #31743f;
+}
+
+
+.filosofos h2 {
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 120px;
+  height: 140px;
+  background-color: #dcdcdc;
+  border-radius: 5px;
+}
