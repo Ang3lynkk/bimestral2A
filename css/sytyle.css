@@ -1,13 +1,15 @@
-/* General Styles */
+/* Estilos Gerais */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  background-color: #fdfaf4; /* fundo claro */
+  color: #333333;
 }
 
 header {
-  background-color: #333;
+  background-color: #5A2A68; /* Roxo escuro */
   color: white;
   padding: 1rem;
   display: flex;
@@ -27,41 +29,68 @@ nav ul {
 
 nav ul li {
   cursor: pointer;
+  color: white;
+  font-weight: bold;
 }
 
-/* Intro Section */
+/* Seção de Introdução */
 .intro {
   text-align: center;
   padding: 2rem;
-  background-color: #f0f0f0;
+  background-color: #E1B125; /* Mostarda */
+  color: #222;
 }
 
 .search-box {
-  margin-top: 1rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .search-box input {
+  width: 0;
   padding: 0.5rem;
-  width: 300px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: width 0.4s ease;
+  opacity: 0;
+  pointer-events: none;
 }
 
-.search-box button {
-  padding: 0.5rem 1rem;
-  background-color: #333;
+.search-box input.active {
+  width: 250px;
+  opacity: 1;
+  pointer-events: auto;
+  margin-right: 10px;
+}
+
+.search-icon {
+  background-color: #175CA5;
   color: white;
+  font-size: 1.2rem;
+  padding: 0.6rem 1rem;
   border: none;
+  border-radius: 50%;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-/* About Sections */
+.search-icon:hover {
+  background-color: #0f447f;
+}
+
+/* Seções informativas */
 .about-site, .about-philosophy {
   padding: 2rem;
   margin: 2rem 0;
   background-color: #f5f5f5;
+  border-left: 5px solid #138157; /* Verde esmeralda */
   border-radius: 8px;
 }
 
-/* Categories */
+/* Categorias */
 .categories {
   display: flex;
   justify-content: center;
@@ -91,9 +120,10 @@ nav ul li {
   display: block;
   margin-top: 0.5rem;
   font-weight: bold;
+  color: #8B2E2E; /* Vinho */
 }
 
-/* Philosophers Cards */
+/* Cartões de Filósofos */
 .filosofos {
   padding: 2rem;
   text-align: center;
@@ -132,7 +162,7 @@ nav ul li {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background: rgba(0,0,0,0.7);
+  background: rgba(90, 42, 104, 0.9); /* Roxo escuro com transparência */
   color: white;
   padding: 10px;
   text-align: center;
