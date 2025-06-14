@@ -12,7 +12,6 @@ function exibirMensagem(event) {
         document.getElementById("saida").innerHTML = mensagem;
         alert(mensagem);
         
-        // Opcional: limpar os campos após o envio
         document.getElementById("login-nome").value = "";
         document.getElementById("login-duvida").value = "";
         document.getElementById("login-matricula").value = "";
