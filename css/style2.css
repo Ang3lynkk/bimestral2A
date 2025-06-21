@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #2b2b2b;
+}
+
+header {
+  background-color: #d6cfc3;
+  padding:30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 100px;
+  margin-top: 30px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d6cfc3;
+  padding: 40px;
+}
+
+.intro h1 {
+  font-size: 22px;
+  line-height: 1;
+  width: 450px;
+}
+
+.intro .imagem img {
+  max-width: 250px;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.caixa {
+  background-color: #d6cfc3;
+  padding: 20px;
+  border-radius: 8px;
+  width: 30%;
+  font-size: 14px;
+}
+
+.caixa h2 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.estudar {
+  width: 40%;
+}
+
+.estudar h2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.estudar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.estudar li {
+  background-color: #d6cfc3;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.complemento {
+  padding: 40px;
+  text-align: center;
+  font-style: italic;
+  background-color: #f2f2f2;
+  font-size: 16px;
+}
